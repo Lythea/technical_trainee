@@ -26,7 +26,7 @@ export default function Page() {
         <Header
           userId={userId}
           accessToken={accessToken}
-          setUserId={setUserId} // Pass the setUserId function to Header
+          setUserId={setUserId}
           setIsLoggedIn={setIsLoggedIn} // Pass setIsLoggedIn to Header
         />
         <div className="p-6">
